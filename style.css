@@ -1,0 +1,428 @@
+body{
+	background: #ffffff;
+	padding: 0;
+	margin: 0;	
+	overflow: auto;
+	min-width:1280px; 
+}
+
+* {
+	box-sizing: border-box;
+	}
+
+.clear{
+	clear:both;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 550px;
+	
+	 
+	
+}
+
+.logo{
+ 	background: #4b83a6;
+ 	height: 115px;
+ 	padding: 0px 140px 10px 140px; 
+ 	
+}
+
+.logo>*{
+display: inline-block;
+color: #ffffff;	
+/*margin: 0px auto;*/
+}
+
+.logo>img{
+	padding: 0px;
+	margin-top:  20px;
+	position: absolute;
+}
+
+#name_compаny{
+	margin-left: 30px;
+    margin-top: 25px;
+    /*float: left;*/
+}
+
+#name_company>p {
+	font-size: 16px;
+}
+#name_company>*{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+.tel>p{
+	font-size: 24px;
+}
+.tel{
+	  float: right;
+	 margin: 70px 20px 0px 0px;
+}
+
+.logo h1{
+	margin-bottom: 0px;
+}
+
+.logo p {
+	margin: 0px;
+}
+
+.menu>ul{
+	margin:0px 140px;	
+}
+
+header>nav{
+    left:0;
+    right:0;
+	background: #d7d7d7;
+ 	font-size: 16px; 
+ 	border-bottom: 3px solid #4b83a6;
+ 	height: 25px;
+ 	position: relative;
+}
+
+.menu li {
+	/*display: inline;*/
+	float:left; 
+	margin-right: 20px;
+	margin-bottom: 0;
+	height: 20px;
+	color: #657782;
+	cursor: pointer;
+	list-style-type: none;
+	}
+
+.menu li:last-of-type{
+	float:right; 
+}
+
+ .menu li:hover {
+ 	
+ 	background:#4980a2;
+ 	border-radius: 5px 5px 0 0; 
+ 	color:#a2bed1;
+ 	height: 27px;
+ 	border-top: 2px solid #d7d7d7;
+ 	
+ 	
+ }
+ 
+.baner {
+	padding: 20px  140px 20px 150px;
+	background: linear-gradient(45deg, #2c698f, #5595bd, #316c92);
+	height: 440px;
+}
+.baner>div {
+	display: inline-block;
+	position: relative;
+}
+
+.slide{
+	border: 5px solid #f2e8e8;
+	
+}
+.slide>div{
+	background: #1a425a;
+	margin: 0;
+	padding: 5px;
+	color: #ffffff;
+	
+}
+
+.form{
+	 float: right;
+	 margin-left:  20px;
+	 width: 420px; 
+	
+}
+form>div{
+	display: block;
+}
+.form_menu>ul{
+	padding: 0px;
+	margin: 0px;
+}
+.form_menu input{
+	display:none;
+}
+.form_menu label{
+	float:left; 
+	margin-right: 10px;
+	border-radius:  5px 5px 0 0;
+	box-sizing: content-box;
+	padding: 6px;
+	background: #c2f2ed;
+	color: #657782;
+	cursor: pointer;
+	list-style-type: none;
+}
+.form_menu label:hover, .form_menu input:checked + label {
+ background: linear-gradient( #5798c1, #5393bb);
+ color: #ffffff;
+}
+.form>form {
+	padding: 10px;
+	background: linear-gradient(to top,#467fa3, #5395bd );
+	border-radius:0 6px 0 0; 
+} 
+
+ .form1  {
+	display: block;
+	 margin: 20px auto;
+	vertical-align: top;
+}
+.form1 input[type=text] {
+	width: 100%;
+	border-radius: 6px;
+	height: 40px;
+	padding: 5px; 
+	border: 2px solid #316e94;
+	margin-top: 10px;
+	color: #347095;
+	font-size: 16px;
+}
+.form1>label, .form2>label{
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.form2 {
+	margin-top: 20px; 
+}
+.form2>select, .form2>input[type=submit] {
+	display: inline-block;
+	float: right;
+	 
+}
+.form2> input[type=submit]{
+	height: 40px;
+	width: 220px;
+	border: 3px solid #d5d6d7;
+	border-radius: 5px; 
+	background: linear-gradient(to top, #4a8bb3, #6ab2dc );
+	color: #ffffff;
+	font-size: 22px;
+}
+ .form2>select {
+	height: 32px;
+	width: 220px;
+	border-radius: 3px; 
+	padding-left: 10px;
+}
+
+ 
+ .column .column1 {
+ 	display: inline-block;
+ }
+.column{
+	background: linear-gradient(to top, #c3f2ed, #ebfefc );
+	padding: 15px 140px 25px 140px;
+	
+}
+.block p {
+	color: #ffffff;
+	font-size: 16px;
+	margin-left: 10px; 
+}
+ .column>div, .listing>div {
+	width: 980px;
+	 margin: auto;
+}
+.column1{
+	width: 300px;
+	margin: 10px;
+}
+.column1>h4{
+	color: #4484ad;
+}
+.column1>img, .column1>h4{
+	display: inline-block;
+}
+
+
+.listing{
+	padding: 15px 140px 25px 140px;
+}
+
+.listing1>div, .listing2>div{
+ 	display: inline-block;
+ }
+ .block{
+ 	margin: 5px
+
+ }
+ .block>img{
+ 	height: 135px;
+ 	width: 220px;
+ 	border: 5px solid #e1dede;
+ 	
+ }
+ .block>div {
+ 	width: 220px;
+ 	background: #4f8fb7;
+ 	border-radius: 0 0 5px 5px; 
+ 	margin-top: 0; 
+ }
+ .block>div>p{
+ 	width: 155px;
+
+ }
+ .block>div>* {
+ 	display: inline-block;
+ } 
+
+ .footer1{padding-left: 140px;
+ 	padding-right: 140px;
+ 	background: #5b8baa;
+ }
+ .footer1>div{
+ 	display: inline-block;
+ 	position: relative;
+ 	margin: 10px;
+ 	width: 470px;
+ 	height: 210px;
+ }
+ 
+ 
+ .login, .subscribe{
+ 	width: 470px;
+ 	height: 110px;
+ 	background: linear-gradient(to top, #689bbc, #82badf);
+ 	border: 1px solid #d7d7d7;
+ 	border-radius: 5px; 
+ 	padding: 10px;
+ }
+.login>h4, .subscribe>h4 {
+	color: #ffffff;
+	font-size: 24px;
+	margin: 0 0 15px 20px;
+}
+
+.login>form>input[type=text], .login>form>input[type=password]{
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 15px; 
+
+}
+.login>form>input[type=submit]{
+	height: 30px;
+	width: 90px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 2px solid #d7d7d7;
+	background: #599dc7;
+	color: #ffffff;
+	margin-left: 15px; 
+}
+.signup {
+	width: 470px;
+ 	height: 50px;
+ 	background: linear-gradient(to top, #689bbc, #82badf);
+ 	border: 1px solid #d7d7d7;
+ 	border-radius: 5px; 
+ 	margin: 20px 0px;
+ 	
+}
+.signup>div{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 22px; 
+	padding: 10px 10px 10px 30px;
+
+	
+}
+.signup1{
+	width: 300px;
+ 	height: 50px;
+ 	
+}
+
+.signup2{
+	background-image: url(images/signup.png);
+	height: 48px;
+	width: 168px;
+	background-size: 100% 100% ;
+	position: absolute;
+	
+}
+.subscribe{
+
+}
+.subscribe>form>input[type=text]{
+	width: 310px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+	margin-left: 15px; 
+
+}
+.subscribe>form>input[type=submit]{
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	padding: 5px;
+	border: 2px solid #d7d7d7;
+	background: #599dc7;
+	color: #ffffff;
+	margin-left: 15px; 
+	margin-bottom: 20px;
+}
+.footer1>div:last-of-type{
+	float: right;
+}
+.soc_icon{
+	margin-top:  20px;
+}
+ .footer2{padding-left: 140px;
+ 	padding-right: 140px;
+ 	background: #4b7d9b;
+ 	
+ }
+.footer2>div{
+	width: 980px;
+	margin:0 auto;
+}
+.footer2>div>div{
+	display: inline-block;
+	color: #ffffff;
+	margin: 20px;
+	
+}
+.footer2 h5{
+	margin: 0px;
+}
+.footer2 .column1{
+ width: 115px;
+ height: 165px;
+}
+.footer2 .column2{
+ width: 90px;
+ height: 165px;
+}
+.footer2 .column3{
+ width: 325px;
+ height: 165px;
+}
+.footer2 .column4{
+ width: 175px;
+ height: 165px;
+  vertical-align:top;
+ 
+}
+.footer2 .column4 h5{
+	margin-left: 20px;
+	margin-top: 15px 
+	
+}
+.footer2 .column4 img{
+	position: absolute;
+	
+}
